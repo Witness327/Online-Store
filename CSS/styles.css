@@ -1,0 +1,222 @@
+
+
+.countdown {
+    text-align: center;
+    display: block;
+    background: rgb(13, 13, 110);
+    color: white;
+    
+
+}
+
+.countdown-nav {
+    list-style-type: none;  
+    margin-top: 0px; 
+    padding-top: 15px; 
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    text-align: center;
+    display: block;
+    color: black;
+    list-style-type: none;    
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+
+
+.blurb {
+    background-color: transparent;
+    width: 95%;
+    text-align: center;
+    margin-top: -425%;
+    position: absolute;
+    color: white;
+    padding-left: 2.5%;    
+}
+
+button {
+    text-align: center;
+    float: left;
+    color: white;
+    width: 37%;
+    border-radius: 25px;
+    background-color: black;
+    border-style: none;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.image {
+    background-color: transparent;
+    width: 95%;
+    text-align: center;
+    margin-top: -325%;
+    position: absolute;
+    padding-left: 2.5%;
+}
+
+.block img {
+    border-radius: 5%;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.block h2 {
+    text-align: center;
+    width: 95%; 
+    padding-left: 2.5%;
+}
+
+.block p {
+    text-align: center;
+    width: 95%; 
+    padding-left: 2.5%;
+}
+
+.block h3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 95%;  
+    margin-left: 2.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    list-style-type: none;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+}
+.footer-nav {
+    background-color: black;
+    color: white;
+    list-style-type: none;
+
+}
+
+
+
+/*------------------------------- Tablet View -------------------------------------*/
+@media (min-width: 768px) {
+    .countdown-nav li {
+        display: inline-block;
+    }
+
+    .nav li {
+        display: inline-block;
+        padding-right: 7%;
+    }
+
+
+    .background {
+        width: 100%;
+
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0px;
+        margin-left: 2%;
+        margin-bottom: 0px;
+    }
+
+    .blurb p {
+        text-align: center;
+        font-size: 25px;
+        padding-top: 0px;
+
+    }
+
+    .blurb {
+        background-color: transparent;
+        width: 50%;
+        float: left;
+        text-align: left;
+        margin-top: -50%;
+        position: absolute;
+        color: white;
+    
+        
+    }
+
+    button {
+        text-align: center;
+        padding: 15px 65px;
+    }
+
+    .image {
+        width: 40%;
+        float: right;
+        margin-top: -40%;
+        position: relative;
+        padding-left: 0px;
+    }
+
+    .sale-items {
+        padding-top: 60px;
+        display: flex;
+        margin: 50px;
+    }
+
+    .block img {
+    border-radius: 5%;
+    width: 95%;
+    margin: 10px;
+    display: flex;
+}
+
+
+
+.block h2 {
+    width: 95%;   
+}
+
+.block p {
+    width: 95%;   
+}
+
+.block h3 {
+    width: 95%;
+    text-align: center;    
+}
+
+
+}
+
+
+/* Desktop View */
+@media (min-width: 1024px) {
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 100px;
+        margin-left: 2%;
+    }
+
+    button {
+        text-align: center;
+        padding: 15px 65px;
+        margin-top: 20px;
+    }
+
+}
